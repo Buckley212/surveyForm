@@ -1,0 +1,93 @@
+body, html{
+    background-image: url("https://images.wallpaperscraft.com/image/office_work_interior_walls_80538_1920x1080.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+  }
+  
+  
+  td {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+  
+  table {
+    margin-right: 50%;
+  }
+  
+  form {
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-right: 20%;
+    background-color: rgba(179, 184, 172, 0.64);
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    border-radius: 5%;
+    font-family: Poppins;
+  }
+  
+  #top {
+    text-align: center;
+    font-family: Poppins;
+  }
+  
+  button {
+    position: relative;
+    display: block;
+    background-color: rgba(59, 161, 186, 1);
+    width: 80%;
+    height: 50px;
+    padding-right: 10px;
+    margin-left: 50px;
+    border: solid rgba(59, 161, 186, 1);
+    font-family: Poppins;
+    font-size: 100%;
+    color: white;
+  }
+  
+  textarea {
+    display: block;
+    border-radius: 6%;
+    margin-left: 50px;
+    resize: none;
+    font-family: Poppins;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  
+  input {
+    font-family: Poppins;
+    padding: 2%;
+    border-radius: 7%;
+    border: solid white;
+  }
+  
+  #number {
+    width: 35%;
+  }
+  
+  select{
+    font-family: Poppins;
+    padding: 2%;
+    border-radius: 7%;
+    border: solid white;
+    margin-top: 25px;
+  }
+  
+  footer {
+    position: relative;
+    font-family: Poppins;
+    background-color: rgba(59, 161, 186, 0.75);
+    text-align: center;
+    padding: 1%;
+    left: 0px; 
+    box-shadow: 0 50vh 0 50vh rgba(59, 161, 186, 0.75);
+  }
+  

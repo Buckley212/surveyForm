@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <header>
+      <title>Survey</title>
+  </header>
+  <main>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <div id="top">
+      <h1 id="title">Beta Survey Form</h1>
+      <p id="description">Help us in our development by giving feedback of our site!</p>
+    </div>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name: </label>
+      <br>
+      <input type="text" name="name" id="name" placeholder="John Smith" required>
+      <br>
+      <br>
+      <label for="email" id="email-label">Email: </label>
+      <br>
+      <input type="email" name="email" id="email" placeholder="johnsmith@email.com" required>
+      <br>
+      <br>
+      <label for="number" id="number-label">Number: </label>
+      <br>
+      <input type="number" id="number" name="number" placeholder="(123)456-7890" required min="10" max="10">
+      <br>
+      <br>
+      <label for="dropdown">What would you say was your favorite feature?</label>
+      <br>
+      <select id="dropdown" name="dropdown">
+        <option value="Location Services">Location Services</option>
+        <option value="Search Assist">Search Assist</option>
+        <option value="Customer Support">Customer Support</option>
+      </select>
+      <br>
+      <br>
+      <div id="radiosec">
+        <p>How likely are you to recommend this platform to your friends?</p>
+        <table>
+          <tr>
+            <td><label for="1">Very Unlikely</label></td>
+            <td><label for="2">Unlikely</label></td>
+            <td><label for="3">Unsure</label></td>
+            <td><label for="4">Likely</label></td>
+            <td><label for="5">Very Likely</label></td>
+          </tr>
+          <br>
+          <tr>
+            <td><input type="radio" name="recommend" id="1" value="1"></td>
+            <td><input type="radio" name="recommend" id="2" value="2"></td>
+            <td><input type="radio" name="recommend"id="3" value="3"></td>
+            <td><input type="radio" name="recommend" id="4" value="4"></td>
+            <td><input type="radio" name="recommend" id="5" value="5"></td>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <br>
+      <div id="checksec">
+        <p>How did you find out about the beta?</p>
+        <br>
+        <br>
+        <input type="checkbox" value="friend" id="friend">
+        <label for="friend">Through a friend</label>
+        <br>
+        <br>
+        <input type="checkbox" value="ad" id="ad">
+        <label for="ad">Advertisement</label>
+        <br>
+        <br>
+        <input type="checkbox" value="news" id="news">1
+        <label for="news">News Article</label>
+        <br>
+        <br>
+        <input type="checkbox" value="promo" id="promo">
+        <label for="promo">Promotion</label>
+      </div>
+      <br>
+      <br>
+      <label for="comment">Anything you'd suggest that you feel would improve your experience?</label>
+      <br>
+      <br>
+      <textarea name="comment" rows="10" cols="40" placeholder="Enter any additional comments here..."></textarea>
+      <br>
+      <br>
+      <button id="submit">Input Survey</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy Buckley</p>
+  </footer>
+</html>
